@@ -56,5 +56,6 @@ def check_trigger_words(message):
             delta_time_value = delta_time
             bot.reply_to(message, f'{word_value} без историй со знакомыми от Сани: {delta_time_value} → 0')
 
-
+# Бесконечная работа бота
 bot.infinity_polling()
+
